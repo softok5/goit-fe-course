@@ -1,0 +1,66 @@
+html{
+    box-sizing:border-box;  /*переопределяем модель визуального форматирования*/
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit; /*все псевдоэлементы наследуют ее*/
+}
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+} /*необходимо для корректного отображения картинки
+*/
+body {
+	font-family: "Playfair Display", sans-serif; 
+	color: #626262;
+	font-size: 14px;
+	line-height: 21px;
+	margin:0 auto ;
+
+}
+.wrapper {
+	width: 901px;
+	margin: 0 auto;
+}
+.main_menu {
+	font-size: 20px;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.main_menu li {
+	display: inline-block;
+	margin-right: 200px;
+	}
+
+}
+.main_menu li:not(last-child) {
+margin-right: 105px;
+	}
+.main_menu a: hover {
+	background: #786b59; /*?*/
+    color: #ffe;  
+}
+.header {
+	margin-bottom: 100px;
+	margin-top: 80px
+}
+.content {
+	display: inline-block;
+	width: 420px;
+	margin-right: 25px;
+	
+}
+.button {
+font-size: 20px;
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
