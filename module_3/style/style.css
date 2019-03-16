@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 html{
     box-sizing:border-box;  /*переопределяем модель визуального форматирования*/
 }
@@ -22,7 +24,7 @@ body {
 
 }
 .wrapper {
-	width: 901px;
+	width: 900px;
 	margin: 0 auto;
 }
 .main_menu {
@@ -42,12 +44,12 @@ body {
 margin-right: 105px;
 	}
 .main_menu a: hover {
-	background: #786b59; /*?*/
+	background: #786b59; 
     color: #ffe;  
 }
 .header {
 	margin-bottom: 100px;
-	margin-top: 80px
+	padding-top: 60px
 }
 .content {
 	display: inline-block;
@@ -62,5 +64,40 @@ font-size: 20px;
 	margin: 0;
 	padding: 0;
 }
+.list {
+	font-size: 0px; 
+}
+.list_item  {
+	margin: 0px;
+	padding: 0px;
+	
+}
+.list_item:last-child {
+	margin-right: 0;
+}
+.list_link {
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+.list_link:hover {
+	color: #99ccff;
+}
+/* .content_menu {
+	font-size: 0px; */
+}
+.button {
+margin: 0 auto;
+
+}
+.button_1 {
+width: 160px;
+height: 60px;
+background-color: white;
+font-size: 20px;
+margin: 25px;
+}
+	
 
 
