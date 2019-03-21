@@ -47,6 +47,8 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 540px;
+    background-size: cover;
+    
 }
 
 .header {
@@ -101,6 +103,8 @@ a {
     color: white;
     font-family: 'Montserrat';
     font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
 
 }
 h2 {
@@ -116,6 +120,7 @@ h2 {
 
 .partner {
     padding: 0 20px;
+    padding-bottom: 60px;
 }
 
 .partner_h2 {
@@ -226,13 +231,13 @@ h2 {
     background-color: white;
     color: #FF4E50;
     border-radius: 20px;
-    margin-bottom: 60px;
+    
 }
 
 
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 940px) {
     .header {
         display: flex;
         flex-flow: row-reverse wrap;
