@@ -37,9 +37,8 @@ img {
     list-style-type: none;
     margin-top: 30px;
     position: absolute;
-    
-    
-    
+    left: 0;
+    right: 0;
 }
 .backgraunt {
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% ), url(images/eagle.jpg);
@@ -50,7 +49,7 @@ img {
     margin-bottom: 50px;
    
 }
-.box-3 {
+.header_title {
     text-align: center;
     padding-top: 180px;
     padding-bottom: 60px;
@@ -60,7 +59,7 @@ img {
     
     
 }
-.box-4{
+.header_subtitle{
     text-align: center;
     font-family: 'Montserrat', bold;
     font-weight: 700;
@@ -68,7 +67,7 @@ img {
     color: white;
     
 }
-.button-2 {
+.header_button {
     display: block;
     margin: 0 auto;
     margin-top: 125px;
@@ -100,44 +99,44 @@ img {
            
 }
 
-.list {
+.menu_item {
     text-decoration: none;
     color: #95E1D3;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.list_icon svg {
+.menu_icon svg {
     width: 20px;
     height: 20px;
     fill: white;
 }
 
-.list:hover {
+.menu_link:hover {
     border-bottom: 2px solid #FCE38A;
 }
 li {
     list-style-type: none;
 
 }
-.title_wrapper{
+.section_titles{
     text-align: center;
 
 }
-.list-1{
+.menu_link{
     text-decoration: none;
     color: white;
     font-size: 14px;
 }
-.work {
+.section_title {
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
 }
-h2 {
+.section_subtitle {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-h2:after {
+.section_subtitle:after {
     content: "";
     width: 60px;
     height: 2px;
@@ -148,25 +147,26 @@ h2:after {
     background-color:#F48B8B;
     margin-bottom: 65px;
 }
-.content-1{
+.services_list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.services_item {
     display: flex;
     width: 330px;
     justify-content: space-between;
 }
 
-.content-1 svg {
+.services_item svg {
     height: 35px;
     width: 60px;
     fill: #95e1d3;
 }
 
 
-.content_list {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    text-align: center;
-}
+
 .text {
     
     width: 950px;
@@ -185,28 +185,28 @@ h2:after {
 .images_content {
     height: 35px;
 }
-.box-1 {
+.services_title {
     text-align: left;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     padding-left: 30px;
     color: black;
 }
-.info_team {
+.image_discr {
     font-size: 14px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
    color:  #333333;
    margin-top: 25px;
 }
-.info_team p {
+.image_discr p {
 font-family: 'Roboto', sans-serif;
 font-size: 15px;
 font-style: italic;
 color: #999999;
 padding: 20px;
 }
-.list-1:hover {
+.menu_link:hover {
     color:#FCE38A;
 }
 .text_content {
@@ -214,7 +214,7 @@ padding: 20px;
     font-family: 'Roboto', sans-serif;
     color: #999999;
 }
-.text_content p {
+.services_block {
     margin-bottom: 20px;
 }
 
